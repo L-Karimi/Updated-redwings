@@ -12,7 +12,6 @@
   .AppGlass {
     display: grid;
     height: 100%;
-    /* width: 97%; */
     background: var(--glass);
     border-radius: 1rem;
     gap: 14px;
@@ -30,7 +29,6 @@
       grid-template-columns: 1fr;
     }
   }
-  /* sidebar */
   .sidebar {
     background-color:  rgba(217, 88, 88, 0.64);
   
@@ -98,7 +96,6 @@
   .menu .menuItem:last-child {
     position: absolute;
     bottom: 2.3rem;
-    /* width: 100%; */
   }
   .active {
     background: var(--activeItem);
@@ -111,7 +108,6 @@
     background: var(--pink);
     margin-right: calc(1rem - 8px);
   }
-  /* Tablets */
   @media screen and (max-width: 1200px) {
     .menuItem>span{
       display: none;
@@ -123,7 +119,6 @@
   @media screen and (max-width: 768px) {
     .sidebar{
       position: fixed;
-      /* background: #662525; */
       z-index: 9;
       background: #faf7f7;
       width: 55%;
@@ -157,7 +152,6 @@
   }
 
 
-/* Header */
 .icons{
   font-size: 27px;
   cursor: pointer;
@@ -170,12 +164,10 @@
 }
 
 
-/* Footer */
 .footer{
 color: rgb(1, 0, 0);
 position: absolute;
 left: 45%;
-/* margin-top: 3%; */
 }
 
 
@@ -307,7 +299,6 @@ left: 45%;
 .Cards {
   display: flex;
   gap: 10px;
-  /* margin-left: 9%; */
 
 }
 .parentContainer{
@@ -341,7 +332,6 @@ left: 45%;
 
 /* table */
 .App {
-  /* width: 100%; */
   height: 1300px;
   display: flex;
   justify-content: center;
@@ -400,7 +390,6 @@ td {
  
 }
 h3{
-  /* margin-right: -56%; */
   font-size: 20px;
 
 }
