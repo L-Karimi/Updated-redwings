@@ -171,7 +171,7 @@ left: 45%;
 }
 
 
-/* card */
+
 .CompactCard {
   display: flex;
   flex: 1;
@@ -188,7 +188,6 @@ left: 45%;
   
 }
 
-/* radial bar */
 .radialBar {
   flex: 1 1;
   display: flex;
@@ -219,7 +218,6 @@ left: 45%;
   font-weight: bold;
 }
 
-/* sideDetail*/
 .detail {
   font-weight: 800;
   
@@ -241,7 +239,6 @@ left: 45%;
 }
 
 
-/* ExpandedCard */
 .ExpandedCard {
   position: absolute;
   width: 60%;
@@ -295,7 +292,6 @@ left: 45%;
 }
 
 
-/* cards */
 .Cards {
   display: flex;
   gap: 10px;
@@ -327,10 +323,9 @@ left: 45%;
 }
 
 
- */
+ 
 
 
-/* table */
 .App {
   height: 1300px;
   display: flex;
